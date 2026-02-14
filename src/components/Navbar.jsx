@@ -25,10 +25,10 @@ function Navbar() {
           About
         </a>
       </div>
-
+      <ThemeToggle />
       {/* Action Button */}
       <button className="bg-blue-600 text-white px-5 py-2 rounded-md font-semibold hover:bg-blue-700 transition-all shadow-md active:scale-95">
-        <ThemeToggle /> Get Started
+        Get Started
       </button>
     </nav>
   );

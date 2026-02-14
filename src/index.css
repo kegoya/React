@@ -1,1 +1,8 @@
 @import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui;
+}
+
+/* Add this specifically if the dark: classes aren't triggering */
+@variant dark (&:where(.dark, .dark *));
