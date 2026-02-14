@@ -2,7 +2,7 @@ import ThemeToggle from "./ThemeToggle";
 
 function Navbar() {
   return (
-    <nav className="bg-white border-b border-gray-200 px-4 py-3 flex items-center justify-between shadow-sm">
+    <nav className="sticky top-0 z-50 bg-white/80 dark:bg-gray-900/80 backdrop-blur-md border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between shadow-sm transition-colors">
       {/* Logo Section */}
       <div className="flex items-center gap-2">
         <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
